@@ -1,8 +1,5 @@
 {
   "name": "chirpstack-create-api-key",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "type": "module",
   "scripts": {
     "build": "tsc",

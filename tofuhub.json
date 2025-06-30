@@ -5,7 +5,7 @@
   "repository": "https://github.com/tofuhubhq/chirpstack-create-api-key.git",
   "homepage": "https://tofuhub.co",
   "author": "Tommaso Girotto",
-  "tags": ["lorawan", "iot", "postgres", "valkey"],
+  "tags": ["lorawan"],
   "license": "MIT",
   "type": "agent"
 }

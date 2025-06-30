@@ -1,14 +1,14 @@
 version: '3.9'
 
 services:
-  manual-login:
+  chirpstack-create-api-key:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: manual-login
+    container_name: chirpstack-create-api-key
     ports:
       - "3000:3000"
-      - "5901:5901"
+      - "6080:6080"
     volumes:
       - browser_state:/app/user-data
     environment:

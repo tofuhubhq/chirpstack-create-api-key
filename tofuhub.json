@@ -1,0 +1,11 @@
+{
+  "name": "chirpstack-create-api-key",
+  "version": "0.0.1",
+  "description": "Logs into Chirpstack, creates an api key and returns it",
+  "repository": "https://github.com/tofuhubhq/chirpstack-create-api-key.git",
+  "homepage": "https://tofuhub.co",
+  "author": "Tommaso Girotto",
+  "tags": ["lorawan", "iot", "postgres", "valkey"],
+  "license": "MIT",
+  "type": "agent"
+}

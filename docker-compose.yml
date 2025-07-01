@@ -14,7 +14,5 @@ services:
     environment:
       - NODE_ENV=production
 
-    command: npx tsx src/index.ts
-
 volumes:
   browser_state:

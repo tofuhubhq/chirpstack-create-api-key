@@ -8,9 +8,6 @@ COPY . .
 
 RUN npm install
 
-# Expose server port
-EXPOSE 3000
-
 # Start everything
 CMD bash -c "\
   rm -rf /tmp/.X1-lock /tmp/.X11-unix/X1 && \

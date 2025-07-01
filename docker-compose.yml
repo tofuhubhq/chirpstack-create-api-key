@@ -7,7 +7,6 @@ services:
       dockerfile: Dockerfile
     container_name: chirpstack-create-api-key
     ports:
-      - "3000:3000"
       - "6080:6080"
     volumes:
       - browser_state:/app/user-data

@@ -5,6 +5,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
+console.info(`Just about to run main`)
 async function main() {
   const userDataDir = path.resolve('./user-data');
 

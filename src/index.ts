@@ -1,10 +1,12 @@
 import { chromium } from 'playwright';
 import path from 'path';
 import { startBrowserAgent } from 'magnitude-core'; // or whatever you're using
-
+import dotenv from 'dotenv';
 // These are only useful in development
-// import dotenv from 'dotenv';
-// dotenv.config();
+
+if (!process.env.OPENROUTER_API_KEY) {
+  dotenv.config();
+}
 
 console.info(`Just about to run main`)
 async function main() {
